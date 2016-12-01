@@ -23,7 +23,6 @@ function borrarTodo(){
     for(var i = notas.length-1; i >= 0; i--){
         document.body.removeChild(notas[i]);
          }
-    eliminarTodo();
 }
 
 
