@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: orange;
+}
+nav{
+    width: 400px;
+    height: 65px;
+    background-color: lightskyblue;
+    margin: -55px auto;
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid black;
+    -webkit-transition: margin 1s;
+}
+
+nav:hover{
+    
+     margin: -20px auto;
+}
+
+ul{
+    width: 400px;
+    height: 60px;
+}
+li{
+    width: 100px;
+    height: 100%;
+    display: inline-block;
+    margin-right: -5px;
+    text-align: center;
+}
+
+
+.jscolor,#anadir,#borrar,#camara{
+    width: 30px;
+    margin-top: 23px;
+    outline: 0px;
+}
+
+.jscolor{
+    height: 30px;
+    border-radius: 20px;
+    font-size: 0; 
+    border: 0;
+    background-size: 0px;
+}
+
+html,body{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
