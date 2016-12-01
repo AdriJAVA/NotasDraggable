@@ -69,7 +69,6 @@ function nota(aleatorioTop,aleatorioLeft){
         }
         
         chincheta.onclick = function(){
-            eliminarMargen(nota.style.top,nota.style.left);
             document.body.removeChild(nota);
         }
         
